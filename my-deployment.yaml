@@ -15,7 +15,6 @@ spec:
       containers:
       - name: my-container
         image: my-nginx-image
-        imagePullPolicy: Never
         ports:
         - containerPort: 80
         volumeMounts:
