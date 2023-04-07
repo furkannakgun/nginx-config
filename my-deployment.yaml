@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: my-container
-        image: furkanakgun/my-image:${tag}
+        image: furkanakgun/my-image
         ports:
         - containerPort: 80
         volumeMounts:
